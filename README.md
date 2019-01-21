@@ -5,7 +5,7 @@ You can use this package on Linux and Windows.
 # Setup
 If you want to use this package you should add remote repository to your list:
 
-`conan remote add ableigdev https://api.bintray.com/conan/ableigdev/conan-libgit2`
+`conan remote add ableigdev https://api.bintray.com/conan/ableigdev/public-conan`
 
 # How to use?
 When you added the _ableigdev_ remote repository, you can write in your project:
