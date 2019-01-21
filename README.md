@@ -2,6 +2,8 @@
 This is [Conan.io](https://conan.io) package for the [libgit2](https://libgit2.org) library.
 You can use this package on Linux and Windows.
 
+The packages generated with this **conanfile** can be found in [bintray.com](https://bintray.com/ableigdev/public-conan/libgit2%3Aableigdev)
+
 # Setup
 If you want to use this package you should add remote repository to your list:
 
