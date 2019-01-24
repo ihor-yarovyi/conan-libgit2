@@ -1,26 +1,27 @@
 #include <iostream>
 #include "git2.h"
 
-using namespace std;
+int main()
+{
+    std::cout << "******* Testing libgit2 library *******" << std::endl;
 
-int main(int argc, char **argv){
+    int err = git_libgit2_init();
+    if (err >= 0)
+    {
+        err = git_libgit2_shutdown();
+    }
 
-	cout << "******* Testing libgit2 library *******" << endl;
+    if (err >= 0)
+    {
+        std::cout << "Ok";
+    }
+    else
+    {
+        std::cout  << "error: " << err;
+    }
 
-	int err = git_libgit2_init();
-	if(err >= 0){
-		err = git_libgit2_shutdown();
-	}
-
-	if(err >= 0){
-		cout << "Ok";
-	}
-	else{
-		cout  << "error: " << err;
-	}
-
-	cout << endl;
-	cout << "**************************************" << endl;
+    std::cout << std::endl;
+    std::cout << "**************************************" << std::endl;
 
     return 0;
 }
