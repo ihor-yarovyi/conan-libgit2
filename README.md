@@ -13,7 +13,7 @@ If you want to use this package you should add remote repository to your list:
 When you added the _ableigdev_ remote repository, you can write in your project:
 
     [requires]
-    libgit2/0.27.8@ableigdev/stable
+    libgit2/0.28.0@ableigdev/stable
 
 # Issues
 If you have issues and you want to report about them, please, do it here:
