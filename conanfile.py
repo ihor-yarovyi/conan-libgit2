@@ -7,7 +7,7 @@ class LibgitConan(ConanFile):
     Conan package for libgit2 library https://github.com/libgit2/libgit2
     """
     name = "libgit2"
-    version = "0.28.1"
+    version = "0.28.2"
     license="GPLv2+linkException"
     description = "A portable, pure C implementation of the Git core methods"
     url = "https://github.com/ableigdev/conan-libgit2.git"
